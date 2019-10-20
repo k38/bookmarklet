@@ -5,5 +5,5 @@ javascript: (() => {
         for( i=0; i<h2.length; i++ ){ items.push(h2[i].textContent.trim()) }
         return items.join("\n");
     };
-    console.log("call 'list()'");
+    console.log("call 'copy(list())'");
 })()
